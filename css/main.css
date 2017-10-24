@@ -159,7 +159,7 @@ hr.small {
 		font-weight: 300;
 }
 
-.header button{
+.header a{
 		letter-spacing: 2px;
 		font-size: 15px;
 		text-transform: uppercase;
