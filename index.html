@@ -72,8 +72,25 @@
         <h3>El futuro de las ideas</h3>
         <h3>24.10.2017</h3>
         <br>
-        <button type="button" class="btn btn-outline-warning btn-lg text-white">Regístrese</button>
         <!-- Botón scroller<a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Regístrese</a>-->
+        <button type="button" class="btn btn-outline-warning btn-lg text-white" data-toggle="modal" data-target="#modalRegistro">Regístrese</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="modalRegistroTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe src="https://fiorejw.typeform.com/to/ELUsmt" frameborder="0" width="100%" height="300px"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </header>
 
@@ -549,7 +566,7 @@
             <div class="row">
               <!--Marca-->
               <div class="col-md-6 col-sm-6 org">
-                <a href="#">
+                <a href="https://www.facebook.com/CEFIIS.UNAC/">
                   <img src="img/cred-org-cefiis.jpg" alt="CeFIIS">
                 </a>
               </div>
